@@ -1,0 +1,30 @@
+body{
+    
+      
+    background-color: rgba(99, 216, 161, 0.815);
+    
+      
+    max-width: 100%;
+    margin:  100%;
+    
+}
+
+header{
+    background-color: rgba(156, 7, 39, 0.733);
+    position: sticky;
+    top: 0;
+}
+a:hover{
+    background-color: rgb(44,44,44);
+}
+.container{
+    text-align: justify;
+}
+.logonavbar{
+    width: 200px;
+    height: 200px;
+}
+
+
+    
+
