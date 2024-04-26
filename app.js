@@ -20,13 +20,14 @@ conexionMongo();
 
 
 
+
 //3.  ESTABLECER LA CONEXION CON NUESTRO FRONT
 const rutaPublica = path.join(process.cwd(),"public");
+
 app.use(express.static(rutaPublica));
-
-
 app.use(express.json());
 app.use("/api", usuarioRouter);
+
 //especificamos que vamos a acceder a nuestro index.html
 app.get("/", (req,res) => {
     res.sendFile(path.join(rutaPublica, "index.html" ))
