@@ -19,10 +19,7 @@
 </head>
 
 <body>
-
-
   <header>
-
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container-fluid minavbar">
@@ -37,17 +34,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 minavbar">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                <a class="nav navegador" aria-current="page" href="./index.html">Inicio</a>
               </li>
               
               <li class="nav-item">
 
-                <a class="nav-link" href="./psicologia.html">Psicología Transpersonal</a>
+                <a class="nav navegador" href="./psicologia.html">Psicología Transpersonal</a>
               <li class="nav-item">
-                <a class="nav-link" href="#Quién Soy">Quién Soy</a>
+                <a class="nav navegador" href="#Quién Soy">Quién Soy</a>
               </li>            
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a class="nav navegador dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Portafolio
                 </a>
@@ -72,12 +69,12 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="#contacto" class="nav-link">contacto </a> </li>
+              <li><a href="#contacto" class="nav navegador">contacto </a> </li>
               <li class="nav-item">
-                <a class="nav-link" href="./ingreso.html">Ingreso</a>
+                <a class="nav navegador" href="./ingreso.html">Ingreso</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./registro.html">Registro</a>
+                <a class="nav navegador" href="./registro.html">Registro</a>
               </li>
 
             </ul>
@@ -85,6 +82,7 @@
 
             </li>
 
+            
           </div>
         </div>
       </nav>
@@ -146,36 +144,31 @@
       </button>
     </div>
   </section>
-  <div>
-    <section>
-
-      <section class="psicologiatranspersonal my-5">
-        <h2 class="text-center my-5 ">Qué es la Psicología Transpersonal</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-6 text-justify">
-              <p> Terapia Transpersonal es un camino de integración y ampliación de consciencia, cuyo fruto es el
-                reconocimiento del yo esencial. Esta terapia responde al anhelo de vivir una vida plena de sentido y
-                autenticidad, allanando la salida del sufrimiento psicológico a través del cultivo de la mirada
-                interior.</p>
-              <p>
-                El psicólogo transpersonal, o terapeuta transpersonal, se encarga de estudiar el aquí y el ahora del
-                individuo o del paciente. Analiza cómo se relaciona con el mundo para determinar una estrategia que
-                consiga la plenitud espiritual. Para ello, realiza varios ejercicios cuyo objetivo es compartido:
-                integrar las emociones y la mente de la persona con el espacio y con sus intereses personales. Las
-                técnicas que utiliza para ello permiten potenciar la capacidad de la persona para empatizar con los
-                demás y con su entorno. Además, mejoran su compasión, el amor por los demás o las habilidades creativas,
-                con el objetivo de desarrollar su consciencia.
-              </p>
-            </div>
-            <div class="col-6">
-
-              <img class="img_fluid" src="./assets/slider3.jpg" alt="">
-            </div>
+  <section class="psicologiatranspersonal">
+    <h2 class="text-center my-5 ">Qué es la Psicología Transpersonal</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 text-justify">
+            <p>Terapia Transpersonal es un camino de integración y ampliación de consciencia, cuyo fruto es el
+              reconocimiento del yo esencial. Esta terapia responde al anhelo de vivir una vida plena de sentido y
+              autenticidad, allanando la salida del sufrimiento psicológico a través del cultivo de la mirada
+              interior.</p>
+            <p>
+              El psicólogo transpersonal, o terapeuta transpersonal, se encarga de estudiar el aquí y el ahora del
+              individuo o del paciente. Analiza cómo se relaciona con el mundo para determinar una estrategia que
+              consiga la plenitud espiritual. Para ello, realiza varios ejercicios cuyo objetivo es compartido:
+              integrar las emociones y la mente de la persona con el espacio y con sus intereses personales. Las
+              técnicas que utiliza para ello permiten potenciar la capacidad de la persona para empatizar con los
+              demás y con su entorno. Además, mejoran su compasión, el amor por los demás o las habilidades creativas,
+              con el objetivo de desarrollar su consciencia.
+            </p>
           </div>
-
+        <div class="col-6">
+      <img class="img_fluid" src="./assets/slider3.jpg" alt="">
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
       <div class=" container">
         <h2 class="text-center my-5  ">El Eneagrama de la Sociedad</h2>
@@ -218,10 +211,25 @@
           <p class="card-text">La terapia familiar es una rama de la psicoterapia enfocada en tratar dificultades de
             comunicación o interacción que se generen dentro de este núcleo. Su importancia radica en garantizar un
             ambiente sano para todos los integrantes.</p>
-          <div class="text-center"> <button type="submit" class="btn btn-primary">Más</button>
+
+            <span class="hide" id="hideText">
+              <p> La terapia familiar es un enfoque psicoterapéutico cuyo objetivo es modificar las dinámicas relacionales interfamiliares para mejorarlas y aportar bienestar.
+                Es una terapia que ve a la familia como un sistema verdadero y propio, teniendo en cuenta todas las partes que lo componen y cómo se relacionan entre sí.
+                Además, durante la terapia, el psicoterapeuta no investiga las causas en las dificultades actuales, sino que propone diferentes patrones de comportamiento para modificar las dinámicas racionales existentes.
+                
+
+              </p>
+
+            </span>
+
+            
+          <div class="text-center"> 
+            <button type="submit" class="btn btn-primary
+             ">Más</button>
           </div>
         </div>
       </div>
+
       <div class="card">
         <img src="./assets/pixa6.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -281,36 +289,6 @@
       </tbody>
     </table>
   </section>
-
-  <footer>
-
-    <div id="contacto">
-      <h4> Contacto </h4>
-      <ul>
-        <li>Rionegro, Antioquia</li>
-        <li>Celular: 3182998651</li>
-        <li>Email: pinoponte1979@gmail.com</li>
-        <li>© Copyright 2024 Andrés Castañeda. Todos los derechos reservados. Aviso legal, privacidad y cookies.</li>
-      </ul>
-    </div>
-
-    <div id="Redes_Sociales">
-      <h4> Redes Sociales </h4>
-      
-      <ul>
-        <li> <a href="#"> Facebook </a>
-        </li>
-        <li> <a href="#"> Twitter </a></li>
-        <li> <a href="#"> Whatsapp </a></li>
-      </ul>
-    </div>
-
-  </footer>
-
-
-
-
-
   <div class="col-12">
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
@@ -323,14 +301,34 @@
     <div class="text-center"> <button type="submit" class="btn btn-primary">Enviar Información</button>
     </div>
   </div>
-  </form>
-  </section>
-  <footer class="text-center py-3">
-    &copy; vwb - Todos los derechos reservados
+</form>
 
+  <footer>
 
+    <div id="contacto">
+      <h4> Contacto </h4>
+      <ul>
+        <li>Rionegro, Antioquia</li>
+        <li>Celular: 3182998651</li>
+        <li>Email: pinoponte1979@gmail.com</li>
+        
+      </ul>
+    </div>
+
+    <div id="Redes_Sociales">
+      <h4> Redes Sociales </h4>
+      
+      <ul>
+        <li> <a href="https://www.facebook.com/pages/?category=your_pages"> Facebook </a>
+        </li>
+        <li> <a href="https://twitter.com/your_twitter_username"> Twitter </a></li>
+        <li> <a href="https://wa.me/+573182998651?text=Hola!%20Me%20gustaria%20contactar%20contigo.">Contactame</a></li>
+      </ul>
+    </div>
+    <ul>
+      <li>© Copyright 2024 Andrés Castañeda. Todos los derechos reservados. Aviso legal, privacidad y cookies.</li>
+    </ul>
   </footer>
-
 
 
 

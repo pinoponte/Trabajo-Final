@@ -1,18 +1,12 @@
-body{
-    
-      
-    background-color: rgba(99, 216, 161, 0.815);
-    
-      
-    max-width: 100%;
-    margin:  100%;
-    
-}
-
 header{
-    background-color: rgba(156, 7, 39, 0.733);
+    background-color: rgba(251, 139, 102, 0.999);
+    padding: 0%;
     position: sticky;
     top: 0;
+    z-index: 1000;
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
 }
 a:hover{
     background-color: rgb(44,44,44);
@@ -20,9 +14,45 @@ a:hover{
 .container{
     text-align: justify;
 }
+.psicologiatranspersonal{
+    margin: 100px;
+}
+
 .logonavbar{
     width: 200px;
     height: 200px;
+}
+
+footer{
+    background-color:#333; 
+    color:#fff;
+    padding: 50px;
+    text-align: left;
+    
+}
+h4{
+    margin-bottom: 10px;
+    align-items: left;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+}
+a:hover{
+    color:#eee;
+    text-decoration: underline;
+}
+
+#Redes_Sociales{
+    display: flex;
+    justify-content: center;
+}
+#Redes_Sociales li {
+    padding-left: 800px;
 }
 
 
