@@ -10,3 +10,4 @@ const conexionMongo = async() => {
     }
 }
 export default conexionMongo;
+

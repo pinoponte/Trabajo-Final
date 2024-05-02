@@ -21,6 +21,7 @@ import usuarioModel from "../models/usuario.model.js";
 
 //LÓGICA PARA MOSTRAR USUARIOS
 export const getUsuario = async(req, res) => {
+    
     //manejo de errores con try y catch
 try{
 let usuarios = await usuarioModel.find();
@@ -32,6 +33,7 @@ return res.json({error: "error al mostrar los datos" + error});
 //logica para crear usuarios
 
 export const postUsuario = async(req, res) => {
+    
 //Manejo de errores con Try y catch
 try{
 let datosUsuario = req.body;
@@ -43,6 +45,7 @@ return res.json({error: "error al crear el usuario", message:error.message});
 }
 // Logica para modificar usuarios
 export const putUsuario = async(req, res) => {
+    
     try {
 let datosModificar = req.body
 let idModificar = req.params._id;
@@ -54,6 +57,7 @@ return res.json({message:"usuario actualizado correctamente"});
 }
 //logica para eliminar usuarios
 export const deleteUsuario = async(req, res) =>{
+    
 try {
     let idEliminar = req.params._id;
     
@@ -64,8 +68,8 @@ try {
     } else{
         return res.json({message: "Ups... no se pudo eliminar ese usuario"});
     }
-
-}catch(error){
+}
+catch(error){
     return res.json({error: "error al eliminar el usuario", message:error.message});
 }
 }
