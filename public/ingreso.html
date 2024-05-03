@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Ingreso</title>
     <link rel="stylesheet" href="./styles/ingreso.css">
+    <script src="./scripts/ingreso.js"></script>
 
 </head>
 <body>
@@ -16,16 +17,16 @@
 
 <div class="container">
     <div class="form-content">
-      <h1 id="title">Ingreso</h1>
+      <h1 id="title">Formulario de Ingreso</h1>
       <form>
         <div class="input-group">
           <div class="input-field">
             <i class="fa-solid fa-envelope"></i>
-            <input type="email" placeholder="Ingrese aqui su correo" />
+            <input type="email" placeholder="Ingrese aqui su correo" id="correo"/>
           </div>
           <div class="input-field">
             <i class="fa-solid fa-lock"></i>
-            <input type="password" placeholder="Ingrese aqui su contraseña" />
+            <input type="password" placeholder="Ingrese aqui su contraseña" id="contrasena" />
           </div>
         </div>
         <div class="texto">
@@ -36,12 +37,12 @@
             <a href="./registro.html">  
           <button id="signUp" type="button">Registro</button>
           </a>
-          <button id="signIn" type="button">Ingresar</button>
+          <button id="signIn" type="button" onclick="iniciarSesion()">Ingresar</button>
         </div>
       </form>
     </div>
   </div>
   
-<script src="script.js"></script>
+
 </body>
 </html>
