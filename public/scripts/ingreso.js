@@ -1,13 +1,14 @@
-//verificamos conexion con html
-console.log("holaaa, soy ingreso");
+const iniciarSesion = async () => {
+
+    //1. Obtener los valores ingresados por el usuario
+    const correo = document.getElementById('correo').value;
+    const contrasena = document.getElementById('contrasena').value;
+
+    console.log(correo, contrasena);//verificamos conexion con html
+
+    console.log("holaaa, soy ingreso");
 
 //crear mi funcion
-const iniciarSesion = async() =>{
-    // obtener los valores ingresados por el usuario
-    const correo = document.getElementById("correo").Value;
-    const contrasena = document.getElementById("contrasena").Value;
-
-    console.log(correo, contrasena);
 
     try {
 
